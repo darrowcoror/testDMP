@@ -1,6 +1,9 @@
+# use shell-style glob syntax
+syntax: glob
+
 .bundle
 db/*.sqlite3
-log/*.log
+*.log
 .log
 tmp/*/*
 .gitignore
