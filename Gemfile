@@ -9,12 +9,13 @@ gem 'sqlite3'
 
 # Development Mode Gems
 group :development do
-   gem 'rspec-rails', '2.5.0'
+  gem 'rspec-rails', '2.6.1'
+  gem 'annotate-models', '1.0.4'
 end
 
 # Test Mode Gems
 group :test do
-   gem 'rspec', '2.5.0'
+   gem 'rspec', '2.6.0'
    gem 'webrat', '0.7.1'
 end
 

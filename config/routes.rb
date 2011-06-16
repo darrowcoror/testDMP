@@ -1,5 +1,6 @@
 DmpTool::Application.routes.draw do
-  get "users/new"
+  # resources enables all the actions for RESTful Users resource
+  resources :users
 
   match '/create_account', :to => 'users#new'
   match '/contact', :to => 'pages#contact'
