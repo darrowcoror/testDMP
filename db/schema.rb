@@ -10,7 +10,41 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110616213323) do
+ActiveRecord::Schema.define(:version => 20110617160839) do
+
+  create_table "funder_templates", :force => true do |t|
+    t.integer  "funder_id"
+    t.string   "name"
+    t.boolean  "active"
+    t.date     "startDate"
+    t.date     "endDate"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "institutions", :force => true do |t|
+    t.string   "name"
+    t.string   "nickname"
+    t.string   "contactEmail"
+    t.string   "contactInfo"
+    t.string   "routeLoginTo"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "plans", :force => true do |t|
+    t.integer  "funderTemplate_id"
+    t.integer  "user_id"
+    t.string   "name"
+    t.string   "desc"
+    t.string   "comment"
+    t.boolean  "public"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "plans", ["user_id"], :name => "index_plans_on_user_id"
 
   create_table "users", :force => true do |t|
     t.string   "name"
