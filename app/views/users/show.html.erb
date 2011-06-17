@@ -1,2 +1,6 @@
-<%= @user.name %>, <%= @user.email %>, <%= @user.nonPartnerInstitution %>
+<h1>
+  <%= @user.name %>
+  <%= gravatar_for @user %>
+</h1>
+<%= @user.email %>, <%= @user.nonPartnerInstitution %>
 
