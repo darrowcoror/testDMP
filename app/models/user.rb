@@ -12,7 +12,7 @@
 #
 
 class User < ActiveRecord::Base
-  attr_accessible :name, :nonPartnerInstitution, :email
+  attr_accessible :first_name, :last_name, :nonPartnerInstitution, :email
 
   email_regex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
