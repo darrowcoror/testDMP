@@ -1,0 +1,78 @@
+:erb
+!!!
+%html
+  %head
+    %title title
+    = stylesheet_link_tag 'text.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'grid.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'default.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'menu_dmp.css', :media => 'screen, projection'
+    = csrf_meta_tag
+
+    .container_12
+      %body
+
+        .header_dmp_container
+          .grid_2
+            = image_tag "recycle2.jpeg"
+          .grid_10
+            %h1
+              = "DMP Tool"
+
+        .info
+          .grid_12
+            .menu
+              <ul>
+              <li>
+              <a href="/">Home<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              </li>
+              <li>
+              <a href="#">My Plans<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              </li>
+              <li>
+              <a href="../menu/index.html">About<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              <ul>
+              <li>
+              <a href="#">Background of project</a>
+              </li>
+              <li>
+              <a href="#">Partner institutions</a>
+              </li>
+              </ul>
+              </li>
+              <li>
+              <a href="#">News<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              </li>
+              <li>
+              <a href="#">Help<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              <ul>
+              <li>
+              <a href="#">(Help with DMPTool)</a>
+              </li>
+              <li>
+              <a href="#">Funder Requirements</a>
+              </li>
+              <li>
+              <a href="#">Sample Plans</a>
+              </li>
+              <li>
+              <a href="#">Video Demo</a>
+              </li>
+              </ul>
+              </li>
+              </ul>
+
+        .body_dmp_container
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          %p
+            = yield
