@@ -7,6 +7,9 @@ gem 'gravatar_image_tag', '1.0.0.pre2'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'compass'
+gem 'compass-960-plugin'
+gem 'haml-rails'
 
 # Development Mode Gems
 group :development do
