@@ -1,0 +1,21 @@
+!!!
+%html
+%head>
+%title><%= title %></title>
+= stylesheet_link_tag 'grid.css', :media => 'screen, projection' %>
+= stylesheet_link_tag 'text.css', :media => 'screen, projection' %>
+= csrf_meta_tag %>
+
+h1><%= @title %></h1>
+%body>
+.container_12
+.menu_container
+ul
+li=link_to "UCLA", "\"
+li
+  = link_to "Inbox"' "#"
+
+= yield %>
+
+= debug(params) if Rails.env.development? %>
+ 

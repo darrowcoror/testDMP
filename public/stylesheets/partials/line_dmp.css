@@ -1,0 +1,5 @@
+/* line 2, ../../../app/stylesheets/partials/line_dmp.sass */
+.line_dmp_container p {
+  border-bottom: 1px;
+  border-style: solid;
+}

@@ -21,8 +21,8 @@
             %p
               = "Guidance and resources for writing data management plans"
             %a.torightend(href="http://www.ucla.edu") Logout
-            %a.torightmiddle(href="http://www.ucla.edu") Sign Up
-            %a.torightstart(href="http://www.ucla.edu") Contact Us
+            %a.toright(href="http://www.ucla.edu") Sign Up
+            %a.toright(href="http://www.ucla.edu") Contact Us
 
           .grid_2
           .grid_10

@@ -1,6 +1,6 @@
 /*
 Syntax error: Invalid CSS after "": expected expression (e.g. 1px, bold), was "'grid.css', :me..."
-        on line 5 of /home/darrowco/rails/testdmpcss/testdmp/app/stylesheets/partials/temp.sass
+        on line 5 of /home/darrowco/rails/testdmp/app/stylesheets/partials/temp.sass
 
 1: !!!
 2: %html
@@ -14,7 +14,7 @@ Syntax error: Invalid CSS after "": expected expression (e.g. 1px, bold), was "'
 10: %body>
 
 Backtrace:
-/home/darrowco/rails/testdmpcss/testdmp/app/stylesheets/partials/temp.sass:5
+/home/darrowco/rails/testdmp/app/stylesheets/partials/temp.sass:5
 /home/darrowco/.rvm/gems/ruby-1.9.2-p180/gems/sass-3.1.3/lib/sass/scss/parser.rb:898:in `expected'
 /home/darrowco/.rvm/gems/ruby-1.9.2-p180/gems/sass-3.1.3/lib/sass/script/lexer.rb:193:in `expected!'
 /home/darrowco/.rvm/gems/ruby-1.9.2-p180/gems/sass-3.1.3/lib/sass/script/parser.rb:458:in `assert_done'
@@ -76,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"\": expected expression (e.g. 1px, bold), was \"'grid.css', :me...\"\A         on line 5 of /home/darrowco/rails/testdmpcss/testdmp/app/stylesheets/partials/temp.sass\A \A 1: !!!\A 2: %html\A 3: %head>\A 4: %title><%= title %></title>\A 5: = stylesheet_link_tag 'grid.css', :media => 'screen, projection' %>\A 6: = stylesheet_link_tag 'text.css', :media => 'screen, projection' %>\A 7: = csrf_meta_tag %>\A 8: \A 9: h1><%= @title %></h1>\A 10: %body>"; }
+  content: "Syntax error: Invalid CSS after \"\": expected expression (e.g. 1px, bold), was \"'grid.css', :me...\"\A         on line 5 of /home/darrowco/rails/testdmp/app/stylesheets/partials/temp.sass\A \A 1: !!!\A 2: %html\A 3: %head>\A 4: %title><%= title %></title>\A 5: = stylesheet_link_tag 'grid.css', :media => 'screen, projection' %>\A 6: = stylesheet_link_tag 'text.css', :media => 'screen, projection' %>\A 7: = csrf_meta_tag %>\A 8: \A 9: h1><%= @title %></h1>\A 10: %body>"; }
