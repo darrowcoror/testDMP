@@ -7,5 +7,3 @@
 @import "960/grid"
 @import "partials/base"
 @import "partials/header_dmp"
-@import "partials/body_dmp"
-@import "partials/line_dmp"

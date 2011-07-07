@@ -46,9 +46,9 @@
   font-size: 1em;
   padding-top: 0px;
   padding-left: 0px;
-  padding-right: 5px;
+  padding-right: 8px;
   position: relative;
-  top: 25px;
+  top: 15px;
   border-right: 1px;
   border-style: solid;
 }
@@ -57,10 +57,10 @@
   float: right;
   font-size: 1em;
   padding-top: 0px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
   position: relative;
-  top: 25px;
+  top: 15px;
   border-right: 1px;
   border-style: solid;
 }
@@ -69,10 +69,10 @@
   float: right;
   font-size: 1em;
   padding-top: 0px;
-  padding-left: 5px;
+  padding-left: 8px;
   padding-right: 0px;
   position: relative;
-  top: 25px;
+  top: 15px;
   border-width: 0px;
   border-style: solid;
 }
