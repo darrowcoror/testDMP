@@ -1,0 +1,4 @@
+.line_dmp_container
+  p
+    border-bottom: 61px
+    border-style: solid

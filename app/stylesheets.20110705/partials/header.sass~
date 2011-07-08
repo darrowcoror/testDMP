@@ -1,0 +1,8 @@
+@import "base"
+
+.header_container
+  +grid(12)
+  img
+    float: left
+  h1
+    float: left

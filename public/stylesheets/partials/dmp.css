@@ -1,0 +1,170 @@
+/* line 2, ../../../app/stylesheets/partials/dmp.sass */
+.dmp img.dmp {
+  float: left;
+  padding-top: 0px;
+  padding-left: 0px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 8, ../../../app/stylesheets/partials/dmp.sass */
+.dmp img.dataplan {
+  float: center;
+  margin-top: 5px 0;
+  margin-right: 0px;
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 14, ../../../app/stylesheets/partials/dmp.sass */
+.dmp h1.dmp1 {
+  float: left;
+  font-size: 4.5em;
+  padding-top: 0px;
+  padding-left: 0px;
+  font-weight: bolder;
+  position: relative;
+  top: 15px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 24, ../../../app/stylesheets/partials/dmp.sass */
+.dmp h1.dmp2 {
+  float: left;
+  font-size: 4.5em;
+  padding-top: 0px;
+  padding-left: 0px;
+  font-weight: lighter;
+  position: relative;
+  color: #7f7f7f;
+  top: 15px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 35, ../../../app/stylesheets/partials/dmp.sass */
+.dmp h2.dmp {
+  float: left;
+  font-size: 2em;
+  padding-top: 0px;
+  padding-left: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: 25px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 45, ../../../app/stylesheets/partials/dmp.sass */
+.dmp h3.dmp {
+  float: left;
+  text-align: left;
+  width: 100%;
+  font-size: 1.5em;
+  padding-top: 15px;
+  padding-left: 0px;
+  position: relative;
+  border-bottom: 1px;
+  border-style: solid;
+}
+/* line 55, ../../../app/stylesheets/partials/dmp.sass */
+.dmp p {
+  float: center;
+  font-size: 1.2em;
+  padding-top: 0px;
+  padding-left: 0px;
+  position: absolute;
+  top: 75px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 64, ../../../app/stylesheets/partials/dmp.sass */
+.dmp p.dmp {
+  float: left;
+  font-size: 1.2em;
+  padding-top: 0px;
+  padding-left: 5px;
+  position: relative;
+  top: 10px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 73, ../../../app/stylesheets/partials/dmp.sass */
+.dmp p.body_dmp {
+  text-align: left;
+  font-size: 1.2em;
+  padding-top: 0px;
+  padding-left: 20px;
+  position: relative;
+  top: 32px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 82, ../../../app/stylesheets/partials/dmp.sass */
+.dmp p.right_dmp {
+  float: right;
+  font-size: 1.2em;
+  padding-top: 0px;
+  padding-left: 0px;
+  position: relative;
+  top: -10px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 91, ../../../app/stylesheets/partials/dmp.sass */
+.dmp a.dmpstart {
+  float: right;
+  font-size: 1em;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 8px;
+  position: relative;
+  top: 15px;
+  border-right: 1px;
+  border-style: solid;
+}
+/* line 101, ../../../app/stylesheets/partials/dmp.sass */
+.dmp a.dmpmiddle {
+  float: right;
+  font-size: 1em;
+  padding-top: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  top: 15px;
+  border-right: 1px;
+  border-style: solid;
+}
+/* line 111, ../../../app/stylesheets/partials/dmp.sass */
+.dmp a.dmpend {
+  float: right;
+  font-size: 1em;
+  padding-top: 0px;
+  padding-left: 8px;
+  padding-right: 0px;
+  position: relative;
+  top: 15px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 121, ../../../app/stylesheets/partials/dmp.sass */
+.dmp a.dmpcenter {
+  float: center;
+  font-size: 1em;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-right: 0px;
+  position: relative;
+  border-right: 0px;
+  border-style: solid;
+}
+/* line 131, ../../../app/stylesheets/partials/dmp.sass */
+.dmp a.dmpleft {
+  float: left;
+  text-align: left;
+  font-size: 1em;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-right: 0px;
+  position: relative;
+  border-right: 0px;
+  border-style: solid;
+}

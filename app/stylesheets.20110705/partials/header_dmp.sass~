@@ -1,0 +1,67 @@
+.header_dmp_container
+  img
+    float: left
+    padding-top: 0px
+    padding-left: 0px
+    border-width: 0px
+    border-style: solid
+  h1
+    float: left
+    font-size: 3.0em
+    padding-top: 0px
+    padding-left: 0px
+    font-weight: bolder
+    position: absolute
+    top: 15px
+    border-width: 0px
+    border-style: solid
+  p
+    float: center
+    font-size: 1.2em
+    padding-top: 0px
+    padding-left: 0px
+    position: absolute
+    top: 75px
+    border-width: 0px
+    border-style: solid
+  p.welcome
+    float: right
+    font-size: 1.2em
+    padding-top: 0px
+    padding-left: 0px
+    position: relative
+    top: 2px
+    border-width: 0px
+    border-style: solid
+  a.torightstart
+    cursor:default
+    float: right
+    font-size: 1.0em
+    padding-top: 0px
+    padding-left: 0px
+    padding-right: 8px
+    position: relative
+    top: 15px
+    border-right: 1px
+    border-style: solid
+  a.torightmiddle
+    cursor:default
+    float: right
+    font-size: 1.0em
+    padding-top: 0px
+    padding-left: 8px
+    padding-right: 8px
+    position: relative
+    top: 15px
+    border-right: 1px
+    border-style: solid
+  a.torightend
+    float: right
+    font-size: 1.0em
+    padding-top: 0px
+    padding-left: 8px
+    padding-right: 0px
+    position: relative
+    top: 15px
+    border-width: 0px
+    border-style: solid
