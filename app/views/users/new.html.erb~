@@ -1,0 +1,8 @@
+<%= form_for(@user) do |f| %>
+    <%= f.label :name %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_field :name %>
+    <%= f.label :email %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_field :email %>
+    <%= f.label :nonPartnerInstitution %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_field :nonPartnerInstitution %>
+    <%= f.submit "Create Account" %>
+<% end %>
+
+

@@ -1,19 +1,6 @@
 <%= form_for(@user) do |f| %>
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :email %><br />
-    <%= f.text_field :email %>
-  </div>
-  <div class="field">
-    <%= f.label :nonPartnerInstitution %><br />
-    <%= f.text_field :nonPartnerInstitution %>
-  </div>
-  <div class="actions">
-    <%= f.submit "Create Account" %>
-  </div>
+    <%= f.label :name %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_field :name %>
+    <%= f.label :email %>
 <% end %>
 
 

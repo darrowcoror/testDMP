@@ -1,0 +1,109 @@
+:erb
+!!!
+%html
+  %head
+    %title title
+    = stylesheet_link_tag 'text.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'grid.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'default.css', :media => 'screen, projection'
+    = stylesheet_link_tag 'menu_dmp.css', :media => 'screen, projection'
+    = csrf_meta_tag
+
+  %body
+    .dmp
+      .container_12
+        .grid_12
+          .grid_2.alpha
+            %img.dmp(src="/images/dmp_logo_beta.png" alt="Welcome to the New DMP Tool")
+          .grid_10.omega
+            %h1.dmp1
+              = "DMP"
+            %h1.dmp2
+              = "TOOL"
+            %a.dmpend(href="http://www.ucla.edu") Logout
+            %a.dmpmiddle(href="http://www.ucla.edu") Sign Up
+            %a.dmpstart(href="http://www.ucla.edu") Contact Us
+          .grid_10.omega
+            .grid_6.alpha
+              %p.dmp
+                = "Guidance and resources for writing data management plans"
+            .grid_4.omega
+              %p.right_dmp
+                = "Welcome Dr. Joe Bruin"
+        .clear
+        .grid_12
+          .info
+            .menu
+              <ul>
+              <li>
+              <a href="/">Home<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              </li>
+              <li>
+              <a href="#">About DMP Tool<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              <ul>
+              <li>
+              <a href="#">Background of project</a>
+              </li>
+              <li>
+              <a href="#">Partner institutions</a>
+              </li>
+              </ul>
+              </li>
+              <li>
+              <a href="../menu/index.html">DMP News<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              </li>
+              <li>
+              <a href="#">My Plans<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              </li>
+              <li>
+              <a href="#">Help<!--[if gte IE 7]><!--></a>
+              <!--<![endif]--><!--[if lte IE 6]><table><tr><td><![endif]-->
+              <ul>
+              <li>
+              <a href="#">(Help with DMPTool)</a>
+              </li>
+              <li>
+              <a href="#">Funder Requirements</a>
+              </li>
+              <li>
+              <a href="#">Sample Plans</a>
+              </li>
+              <li>
+              <a href="#">Video Demo</a>
+              </li>
+              </ul>
+              </li>
+              </ul>
+        .clear
+        .grid_12
+          %h2.dmp
+            = "Data Management Plan Tool"
+        .clear
+        .grid_7
+          %p.body_dmp
+            ="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, "
+        .grid_4.push_1.alpha	
+          .grid_4
+            %img.dataplan(src="/images/Los_Angeles_Off_Peak1.png" alt="Welcome to the DMP Tool")
+          .grid_4
+            %a.dmpcenter(href="http://www.ucla.edu") See a plan created with the DMP Tool
+            %h3.dmp
+              = "Recent DMP News"
+          .grid_4
+            %a.dmpleft(href="http://www.ucla.edu") Open Access and Climate Research Data
+          .grid_4
+            %a.dmpleft(href="http://www.ucla.edu") Data, Data Everywhere...A Deluge of Data Management Articles
+          .grid_4
+            %a.dmpleft(href="http://www.ucla.edu") University of Illinois at Urbana-Champaign Joins DMP Tools Partners
+          .grid_4
+            %a.dmpleft(href="http://www.ucla.edu") Funder X now available in DMP Tool
+          .grid_4
+            %a.dmpleft(href="http://www.ucla.edu") more news >
+        .grid_12
+          %p.dmp
+            = yield
+        .clear
