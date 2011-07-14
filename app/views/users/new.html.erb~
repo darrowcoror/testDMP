@@ -1,7 +1,6 @@
 <%= form_for(@user) do |f| %>
     <% a_form = "<div class=grid_6 alpha>".html_safe %><%= a_form %><%= f.label :name %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_field :name %><% b_form = "</div>".html_safe %><%= b_form %>
     <% a_form = "<div class=grid_6 alpha>".html_safe %><%= a_form %><%= f.label :email %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_field :email %><% b_form = "</div>".html_safe %><%= b_form %>
-    <% a_form = "<div class=grid_6 alpha>".html_safe %><%= a_form %><%= f.label :nonPartnerInstitution %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_field :nonPartnerInstitution %><% b_form = "</div>".html_safe %><%= b_form %>
+    <% a_form = "<div class=grid_6 alpha>".html_safe %><%= a_form %><%= f.label :nonPartnerInstitution %><% a_colon = "<em>:</em>".html_safe %><%= a_colon %><%= f.text_area :nonPartnerInstitution %><% b_form = "</div>".html_safe %><%= b_form %>
     <% a_form = "<div class=grid_6 alpha>".html_safe %><%= a_form %><% a_colon = "<label>&nbsp;</label>".html_safe %><%= a_colon %><% a_colon = "<em>&nbsp;</em>".html_safe %><%= a_colon %><%= f.submit "Create Account" %><% b_form = "</div>".html_safe %><%= b_form %>
-    <% a_form = "<div class=grid_6 alpha>".html_safe %><%= a_form %><%= f.submit "Create Account" %><% b_form = "</div>".html_safe %><%= b_form %>
 <% end %>
