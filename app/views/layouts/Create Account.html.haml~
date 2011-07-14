@@ -94,10 +94,10 @@
               </ul>
         .clear
         .grid_12
-          %h2.dmp
+          %h2.dmp2
             = "Sign up for the DMP Tool"
         .clear
-        .grid_5.alpha
+        .grid_6
           = yield
         .grid_4.push_1.alpha
           .grid_4

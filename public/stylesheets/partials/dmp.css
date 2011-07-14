@@ -48,10 +48,23 @@
   font-weight: bolder;
   position: relative;
   top: 0px;
-  border-width: 1px;
+  border-width: 0px;
   border-style: solid;
 }
 /* line 45, ../../../app/stylesheets/partials/dmp.sass */
+.dmp h2.dmp2 {
+  float: left;
+  font-size: 2em;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-weight: bolder;
+  position: relative;
+  top: 0px;
+  border-width: 0px;
+  border-style: solid;
+}
+/* line 56, ../../../app/stylesheets/partials/dmp.sass */
 .dmp h3.dmp {
   float: left;
   text-align: left;
@@ -63,19 +76,19 @@
   border-bottom: 1px;
   border-style: solid;
 }
-/* line 55, ../../../app/stylesheets/partials/dmp.sass */
+/* line 66, ../../../app/stylesheets/partials/dmp.sass */
 .dmp h3.dmp2 {
   float: left;
   text-align: left;
   width: 100%;
   font-size: 1.5em;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-left: 0px;
   position: relative;
   border-bottom: 1px;
   border-style: solid;
 }
-/* line 65, ../../../app/stylesheets/partials/dmp.sass */
+/* line 76, ../../../app/stylesheets/partials/dmp.sass */
 .dmp p {
   float: center;
   font-size: 1.2em;
@@ -86,7 +99,7 @@
   border-width: 0px;
   border-style: solid;
 }
-/* line 74, ../../../app/stylesheets/partials/dmp.sass */
+/* line 85, ../../../app/stylesheets/partials/dmp.sass */
 .dmp p.col {
   float: left;
   text-align: left;
@@ -98,7 +111,7 @@
   border-width: 0px;
   border-style: solid;
 }
-/* line 84, ../../../app/stylesheets/partials/dmp.sass */
+/* line 95, ../../../app/stylesheets/partials/dmp.sass */
 .dmp p.dmp {
   float: left;
   font-size: 1.2em;
@@ -109,7 +122,7 @@
   border-width: 0px;
   border-style: solid;
 }
-/* line 93, ../../../app/stylesheets/partials/dmp.sass */
+/* line 104, ../../../app/stylesheets/partials/dmp.sass */
 .dmp p.body_dmp {
   text-align: left;
   font-size: 1.2em;
@@ -120,7 +133,7 @@
   border-width: 0px;
   border-style: solid;
 }
-/* line 102, ../../../app/stylesheets/partials/dmp.sass */
+/* line 113, ../../../app/stylesheets/partials/dmp.sass */
 .dmp p.right_dmp {
   float: right;
   font-size: 1.2em;
@@ -131,7 +144,7 @@
   border-width: 0px;
   border-style: solid;
 }
-/* line 111, ../../../app/stylesheets/partials/dmp.sass */
+/* line 122, ../../../app/stylesheets/partials/dmp.sass */
 .dmp a.dmpstart {
   float: right;
   font-size: 1em;
@@ -143,7 +156,7 @@
   border-right: 1px;
   border-style: solid;
 }
-/* line 121, ../../../app/stylesheets/partials/dmp.sass */
+/* line 132, ../../../app/stylesheets/partials/dmp.sass */
 .dmp a.dmpmiddle {
   float: right;
   font-size: 1em;
@@ -155,7 +168,7 @@
   border-right: 1px;
   border-style: solid;
 }
-/* line 131, ../../../app/stylesheets/partials/dmp.sass */
+/* line 142, ../../../app/stylesheets/partials/dmp.sass */
 .dmp a.dmpend {
   float: right;
   font-size: 1em;
@@ -167,7 +180,7 @@
   border-width: 0px;
   border-style: solid;
 }
-/* line 141, ../../../app/stylesheets/partials/dmp.sass */
+/* line 152, ../../../app/stylesheets/partials/dmp.sass */
 .dmp a.dmpcenter {
   float: center;
   font-size: 1em;
@@ -179,7 +192,7 @@
   border-right: 0px;
   border-style: solid;
 }
-/* line 151, ../../../app/stylesheets/partials/dmp.sass */
+/* line 162, ../../../app/stylesheets/partials/dmp.sass */
 .dmp a.dmpleft {
   float: left;
   text-align: left;
@@ -192,40 +205,36 @@
   border-right: 0px;
   border-style: solid;
 }
-/* line 162, ../../../app/stylesheets/partials/dmp.sass */
+/* line 173, ../../../app/stylesheets/partials/dmp.sass */
 .dmp label {
-  display: block;
   width: 150px;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-right: 0px;
-  position: relative;
   float: left;
-  margin: 20px 4px 6px 10px;
   text-align: right;
-  border: 1px solid #000066;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-right: 0px;
+  margin: 25px 0px 0px 20px;
+  border: 0px solid #000066;
 }
-/* line 174, ../../../app/stylesheets/partials/dmp.sass */
+/* line 183, ../../../app/stylesheets/partials/dmp.sass */
 .dmp input {
-  width: 240px;
+  width: 150px;
   float: left;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
   padding-right: 0px;
-  margin: 17px 4px 0px 8px;
-  position: relative;
+  margin: 23px 4px 0px 8px;
   border: 1px solid #000066 input;
 }
-/* line 184, ../../../app/stylesheets/partials/dmp.sass */
+/* line 192, ../../../app/stylesheets/partials/dmp.sass */
 .dmp em {
   float: left;
   padding-top: 0px;
   padding-left: 0px;
   padding-right: 0px;
   padding-right: 0px;
-  margin: 20px 6px 0px -2px;
-  position: relative;
+  margin: 25px 6px 0px 2px;
   border: 0px solid #000066;
 }
