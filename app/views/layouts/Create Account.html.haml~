@@ -11,20 +11,11 @@
     = csrf_meta_tag
     :plain
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
-      <script type="text/javascript">
-      //<![CDATA[
-      $(document).ready(function() {
-      alert('mnmnb');
-      }
-      //]]>
-      </script>
-
   %body
     %script{:type => "text/javascript", :charset => "utf-8"}
       :plain
         //<![CDATA[
         $(document).ready(function() {
-        alert('mnmnb');
         if ($('textarea').length > 0) {
         var data = $('textarea');
         $.each(data, function(i) {
