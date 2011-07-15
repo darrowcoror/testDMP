@@ -9,8 +9,6 @@
     = stylesheet_link_tag 'default.css', :media => 'screen, projection'
     = stylesheet_link_tag 'menu_dmp.css', :media => 'screen, projection'
     = csrf_meta_tag
-    :plain
-      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
   %body
     %script{:type => "text/javascript", :charset => "utf-8"}
       :plain

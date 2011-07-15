@@ -10,18 +10,6 @@
     = stylesheet_link_tag 'menu_dmp.css', :media => 'screen, projection'
     = csrf_meta_tag
   %body
-    %script{:type => "text/javascript", :charset => "utf-8"}
-      :plain
-        //<![CDATA[
-        $(document).ready(function() {
-        if ($('textarea').length > 0) {
-        var data = $('textarea');
-        $.each(data, function(i) {
-        CKEDITOR.replace(data[i].id);
-        });
-        }
-        });
-        //]]>
     .dmp
       .container_12
         .grid_12
