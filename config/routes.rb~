@@ -6,7 +6,6 @@ DmpTool::Application.routes.draw do
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
   match '/help',    :to => 'pages#help'
-  match '/my_plans',    :to => 'pages#my_plans'
 
   root :to => 'pages#home'
 

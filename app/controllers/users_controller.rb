@@ -2,7 +2,7 @@ class UsersController < ApplicationController
 layout :new
   def new
     @user = User.new
-    @title = "Create Account"
+    @title = "new"
   end
 
   def show

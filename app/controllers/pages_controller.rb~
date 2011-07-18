@@ -15,8 +15,4 @@ class PagesController < ApplicationController
      @title = "Help"
   end
 
-  def help
-     @my_plans = "My Plans"
-  end
-
 end
